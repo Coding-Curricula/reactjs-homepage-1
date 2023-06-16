@@ -1,0 +1,25 @@
+.contact-container{
+    background-color: #333;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.contact-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-container form input{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,66 @@
+.home-container{
+    background-color: red;
+}
+
+.hero-container{
+    background-color: blue;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-container h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.hero-container p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.hero-container button{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.features-container{
+    background-color: green;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+
+}
+
+.features-container h2{
+    font-size: 3rem;
+    color: white;
+}
+
+.features-container p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.features-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+
+
+.pricing-container{
+    background-color: yellow;
+}

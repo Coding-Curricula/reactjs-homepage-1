@@ -10,6 +10,8 @@ import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
 import NoPage from './pages/NoPage';
 
+import './index.css';
+
 function App() {
     return (
         <div>
